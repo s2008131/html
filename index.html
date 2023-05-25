@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>k4641321's web2</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="1.ico">
+    <style>
+        body {
+            height: auto;
+            width: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        footer {
+            width: auto;
+            height: 100px;
+            margin: 50px;
+            padding: 0px;
+            bottom: 0px;
+            text-align: center;
+        }
+
+        #yp {
+            float: right;
+            color: rgb(21, 255, 0);
+            width: 128px;
+            height: 21px;
+            background-color: #ffffffb6;
+            border-style: solid;
+            border-color: #ffffff00;
+            border-width: 5px;
+            border-radius: 10px;
+            text-decoration: none;
+
+        }
+
+        #gb {
+            color: #00eeff;
+            float: left;
+            width: 100px;
+            height: 21px;
+            background-color: #ffffffb6;
+            border-style: solid;
+            border-color: #ffffff00;
+            border-width: 5px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+        .wz {
+            color: #000000;
+        }
+
+        #dm1 {
+            width: 200px;
+            height: 425px;
+            background-color: #ffffffb6;
+            border-style: solid;
+            border-color: #ffffff00;
+            border-width: 5px;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+
+        #dm {
+            width: 200px;
+            height: 425px;
+            background-color: #ffffffb6;
+            border-style: solid;
+            border-color: #ffffff00;
+            border-width: 5px;
+        }
+
+        #bxg {
+            width: 200px;
+            height: 425px;
+            background-color: #ffffffb6;
+            border-style: solid;
+            border-color: #ffffff00;
+            border-width: 5px;
+        }
+
+        #chatgpt {
+            width: 255px;
+            height: 425px;
+            background-color: #ffffffb6;
+            border-style: solid;
+            border-color: #ffffff00;
+            border-width: 5px;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+            padding-right: auto;
+        }
+
+        #bt {
+            height: 40px;
+            width: auto;
+            background-color: #ffffffb6;
+            border-style: solid;
+            border-color: #ffffff00;
+            border-width: 5px;
+            border-radius: 10px;
+            text-align: center
+        }
+
+        .alldiv {
+            display: block;
+            float: left;
+            border-style: solid;
+            border-color: red;
+            border-width: 10px;
+        }
+
+        li {
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: linear-gradient(to right, #00ccff 0%, #0099ff 100%);
+        }
+    </style>
+    <script>
+        function dj() {
+            document.getElementById('wy2').src = document.getElementById('wy1').value;
+        };
+
+        function sjdx() {
+            document.getElementById("wy2").height = "1136";
+            document.getElementById("wy2").width = "640";
+        }
+        function dndx() {
+            var a = 1600;
+            var b = 800;
+            document.getElementById('wy2').width = "1570";
+            document.getElementById('wy2').height = "750";
+        };
+
+        function qp() {
+            window.alert("请自行按返回键或Esc退出全屏")
+            document.getElementById("wy2").requestFullscreen()
+        }
+
+    </script>
+</head>
+
+<body id="bg" style="background-image: linear-gradient(to bottom, #99ff66 0%, #00ccff 100%);">
+    <div id="bt">
+        <h1
+            style="-webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: linear-gradient(to right, #00AEEE 0%, #00AE00 100%); margin:0px;padding:0px; ">
+            k4641321看动漫的小网站</h1>
+    </div>
+    <br>
+    <a id="gb" href="1" target="wy">关闭内嵌网页</a>
+    <button type="button" onclick="sjdx()"
+        style=" float:right;background-color: #ffffffb6;border-style: solid;border-color: #ffffff00;border-width: 5px;border-radius: 10px;text-decoration: none;">手机版大小</button>
+    <br>
+    <br>
+    <iframe id="wy2" src="https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images=302" width="960" height="1100"
+        frameborder="0" name="wy" style="padding-right: 0px;margin-right: 0px;">
+        <p>无法加载</p>
+    </iframe>
+    <br>
+    <p
+        style="margin: 0px;padding: 0px; border: 0px; width:atuopx;height:40px;color:rgb(187, 255, 0);font-size:20px;display: inline-block;">
+        自定义网址</p><button type="button" onclick="qp()"
+        style=" float:right;background-color: #ffffffb6;border-style: solid;border-color: #ffffff00;border-width: 5px;border-radius: 10px;text-decoration: none;">全屏</button>
+    <form>
+        <input id="wy1" type="url" value="" target="wy" style="width:100px;height:20px"><button type="button"
+            onclick="dj()"
+            style=" background-color: #ffffffb6;border-style: solid;border-color: #ffffff00;border-width: 5px;border-radius: 10px;text-decoration: none;">确定</button><button
+            type="button" onclick="dndx()"
+            style=" float:right;background-color: #ffffffb6;border-style: solid;border-color: #ffffff00;border-width: 5px;border-radius: 10px;text-decoration: none;">电脑版大小</button>
+    </form>
+    <p style="color:rgb(255, 30, 0);font-size:30px;">使用内嵌网页访问网站可能会出问题，请尽量不要使用内嵌网页</p>
+    <div class="alldiv" id="dm1">
+        <p style="color:white">
+            下面的网站是不是全tm套一个壳?</p>
+        <ul style="margin: 20px;padding: 0px;">
+            <li><a class="wz" href="https://hua355.vip//" target="wy">花花动漫</a></li>
+            <li><a class="wz" href="http://www.gugufan.com/" target="wy">咕咕番</a></li>
+            <li><a class="wz" href="https://www.miaoaaa.com/go/?url=aHR0cDovL3d3dy54bi0tNzlxNDQwYS54eXov"
+                    target="wy">出差屋</a></li>
+            <li><a class="wz" href="https://fqfun.com/" target="wy">番茄动漫（强推，甚至简中比别人快一步）</a></li>
+            <li><a class="wz" href="https://anime.girigirilove.com/" target="wy">girlgirl爱动漫（图片预加载有点H）</a></li>
+            <li><a class="wz" href="https://www.elfun.xyz/" target="wy">elfun</a></li>
+            <li><a class="wz" href="https://www.7sefun.top/" target="wy">七色番</a></li>
+            <li><a class="wz" href="https://www.yoifun.com/" target="wy">yoifun</a></li>
+            <li><a class="wz" href="https://www.anfuns.cn" target="wy">Anfun</a></li>
+            <li><a class="wz" href="http://ydm.life/" target="wy">次元动漫（已更换地址）</a></li>
+        </ul>
+    </div>
+    <div class="alldiv" id="dm">
+        <p style="color:white">第二组</p>
+        <ul style="margin: 20px;padding: 0px;">
+            <li><a class="wz" href="https://www.mgnacg.com/" target="wy">橙子动漫</a></li>
+            <li><a class="wz" href="http://age.tv" target="wy">agetv</a></li>
+            <li><a class="wz" href="http://mandao.tv" target="wy">mandao.tv</a></li>
+            <li><a class="wz" href="http://acgfantuan.com" target="wy">acgfantuan</a></li>
+            <li><a class="wz" href="http://www.zzzfun.vip" target="wy">zzzfun</a></li>
+            <li><a class="wz" href="http://iafuns.com" target="wy">iafuns.com</a></li>
+            <li><a class="wz" href="http://acgnya.com" target="wy">acgnya</a></li>
+            <li><a class="wz" href="http://www.dm530p.net" target="wy">dm530p</a></li>
+            <li><a class="wz" href="http://www.miaoaaa.com" target="wy">acg喵导航</a></li>
+            <li><a class="wz" href="http://agedm1.com" target="wy">ageadm1</a></li>
+            <li><a class="wz" href="http://tinaacg.net" target="wy">tinaacg</a></li>
+            <li><a class="wz" href="http://07vod.fun" target="wy">柒之社</a></li>
+            <li><a class="wz" href="https://rebozj.pro/" target="wy">热播之家（属于解析类，不止动漫）</a></li>
+        </ul>
+    </div>
+
+    <!-- <div class="alldiv" id="yhdm">
+        <p style="color:white">自称全是樱花动漫的家伙</p>
+        <ul style="margin: 20px;padding: 0px;">
+            <li><a class="wz" href="https://www.yingyutoys.com/" target="wy">https://www.yingyutoys.com/</a></li>
+            <li><a class="wz" href="https://www.dmttang.com/" target="wy">dmttang</a></li>
+        </ul>
+    </div> -->
+    <div class="alldiv" id="bxg">
+        <p style="color:white">不相关的网站</p>
+        <ul style="margin: 20px;padding: 0px;">
+            <li><a class="wz" href="https://minecraftjava.fandom.com/zh" target="wy">Minecraft wiki </a></li>
+            <li><a class="wz"
+                    href="https://wiki.biligame.com/mc/Minecraft_Wiki?hmsr=%E4%B8%AD%E9%97%B4%E9%A1%B5&hmpl=&hmcu=&hmkw=&hmci="
+                    target="wy">Minecraft wiki bilibili </a></li>
+            <li><a class="wz" href="https://server.pro" target="wy">serverpro</a></li>
+            <li><a class="wz" href="https://phicommunity.com.cn" target="wy">phicommunity</a></li>
+            <li><a class="wz" href="http://prts.wiki/w/CHAR?filter=AAACAAAEQAAAAAAAAAAAAAAAAAAAAA"
+                    target="wy">明日方舟计算器</a></li>
+            <li><a class="wz" href="http://wolfchen.top/tag/" target="wy">ai绘画词典</a></li>
+            <li><a class="wz" href="https://aistudio.baidu.com/aistudio/projectdetail/5009422" target="wy">飞浆ai绘画</a>
+            </li>
+            <li><a class="wz" href="https://music.liuzhijin.cn/" target="wy">音乐直链搜索</a></li>
+            <li><a class="wz" href="https://ai.anzu.link/" target="wy">ai绘画</a></li>
+            <li><a class="wz" href="https://xingye.me/game/index.php?tab=2" target="wy">网页音游</a></li>
+            <li><a class="wz" href="https://yuanshenai.com/" target="wy">原神ai语音合成</a></li>
+            <li><a class="wz" href="https://tools.miku.ac/" target="wy">原神ai语音合成2</a></li>
+        </ul>
+    </div>
+    <div class="alldiv" id="chatgpt">
+        <p style="color:white">Chat GPT系列</p>
+        <ul style="margin: 20px;padding: 0px;">
+            <li><a class="wz" href="https://ai.imiku.me/" target="wy">https://ai.imiku.me/</a></li>
+            <li><a class="wz" href="https://chat.forchange.cn/" target="wy">https://chat.forchange.cn/</a></li>
+            <li><a class="wz" href="https://chat.moyunav.com/" target="wy">https://chat.moyunav.com/（需要key）</a></li>
+            <li><a class="wz" href="https://chater.lanyun1103.top/" target="wy">https://chater.lanyun1103.top/</a></li>
+            <li><a class="wz" href="https://ai.bo-e.com/" target="wy">https://ai.bo-e.com/</a></li>
+            <li><a class="wz" href="https://geekch.art/" target="wy">https://geekch.art/</a></li>
+        </ul>
+    </div>
+
+</body>
+<footer>
+    <h3 style="color:white;font-size:125%;width:auto;height:100px;">HTML MADE BY k4641321<br>SERVER BY <a
+            href="https://xiaozmax.top" ,target="_blank" style="color:white;">芸志云</a></h3>
+</footer>
+
+</html>
