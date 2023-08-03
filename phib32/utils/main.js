@@ -244,7 +244,7 @@ Utils.lazyload(() => {
   if (s.has('agree') && rct[1]) return location.replace(rct[1], document.cookie = `dct=ok;path=/;max-age=${2e6}`);
   if (s.has('disagree')) return location.replace('/403.html', document.cookie = 'dct=;rct=;path=/;max-age=0');
   if (typeof self._i === 'undefined' || self._i.length !== 4) return undefined;
-  if (!t) return location.replace('/401-.html', document.cookie = `rct=${location.href};path=/;max-age=${2e6}`);
+  //if (!t) return location.replace('/401-.html', document.cookie = `rct=${location.href};path=/;max-age=${2e6}`);
   document.cookie = `dct=ok;path=/;max-age=${2e6}`;
   document.title = `${self._i[0]} - ${d}制作`;
   for (const i of document.querySelectorAll('.title')) i.innerHTML = `${self._i[0]}&nbsp;<small>v${self._i[1].join('.')}</small>`;
