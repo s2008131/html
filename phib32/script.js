@@ -836,7 +836,7 @@ document.addEventListener('DOMContentLoaded', async function qwq() {
 	msgHandler.sendMessage('初始化...');
 	if (await checkSupport()) return;
 	const res0 = {};
-	const raw = await fetch(atob('aHR0cHM6Ly9sY2h6aC5uZXQvZGF0YS9wYWNrLmpzb24=')).then(i => i.json());
+	//const raw = await fetch(atob('aHR0cHM6Ly9sY2h6aC5uZXQvZGF0YS9wYWNrLmpzb24=')).then(i => i.json());
 	for (const j in raw.image || {}) res0[j] = raw.image[j];
 	for (const j in raw.audio || {}) res0[j] = raw.audio[j];
 	//加载资源
