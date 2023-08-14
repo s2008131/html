@@ -237,7 +237,7 @@ export const urls = {
 	jszip: ['//cdn.jsdelivr.net/npm/jszip', '//fastly.jsdelivr.net/npm/jszip'],
 	browser: ['//cdn.jsdelivr.net/gh/mumuy/browser/Browser.js', '//fastly.jsdelivr.net/gh/mumuy/browser/Browser.js' /* , '//passer-by.com/browser/Browser.js' */ ],
 	bitmap: ['//cdn.jsdelivr.net/gh/Kaiido/createImageBitmap/dist/createImageBitmap.js', '//fastly.jsdelivr.net/gh/Kaiido/createImageBitmap/dist/createImageBitmap.js'],
-	blur: ['http://cdn.jsdelivr.net/npm/stackblur-canvas', 'https://fastly.jsdelivr.net/npm/stackblur-canvas'],
+	blur: ['https://cdn.jsdelivr.net/npm/stackblur-canvas', 'https://fastly.jsdelivr.net/npm/stackblur-canvas'],
 	md5: ['//cdn.jsdelivr.net/npm/md5-js', '//fastly.jsdelivr.net/npm/md5-js'],
 }
 export const getConstructorName = obj => {
