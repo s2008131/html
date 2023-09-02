@@ -5,4 +5,5 @@
     "stackblur-canvas": "^2.5.0"
     "proxy": "https://lchzh.net" // 这是你要访问的域
   }
+  "proxy": "https://lchzh.net" // 这是你要访问的域
 }
