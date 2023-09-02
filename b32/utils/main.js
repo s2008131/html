@@ -232,23 +232,4 @@ self.Utils = Utils; // export for iOS 14- qwq
   Utils.loadJS('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8369333813205733');
 }());
 // cookie
-Utils.lazyload(() => {
-  const fd = Utils.formatDate(navigator.language);
-  const dct = document.cookie.match(/dct=(.+?)(;|$)/) || [];
-  const rct = document.cookie.match(/rct=(.+?)(;|$)/) || [];
-  const d = 'lchz\x683\x3473';
-  const w = `作者：<a style="text-decoration:underline"target="_blank"href="https://space.bilibili.com/274753872">${d}</a>`;
-  const s = new URLSearchParams(location.search);
-  const t = dct[1] === 'ok' || location.port || Utils.checkED(s.get('ss'));
-  if (!location.port && !s.has('test')) setInterval(Function.constructor(atob('ZGVidWdnZXI7')));
-  if (s.has('agree') && rct[1]) return location.replace(rct[1], document.cookie = `dct=ok;path=/;max-age=${2e6}`);
-  if (s.has('disagree')) return location.replace('/403.html', document.cookie = 'dct=;rct=;path=/;max-age=0');
-  if (typeof self._i === 'undefined' || self._i.length !== 4) return undefined;
-  if (!t) return location.replace('/401-.html', document.cookie = `rct=${location.href};path=/;max-age=${2e6}`);
-  document.cookie = `dct=ok;path=/;max-age=${2e6}`;
-  document.title = `${self._i[0]} - ${d}制作`;
-  for (const i of document.querySelectorAll('.title')) i.innerHTML = `${self._i[0]}&nbsp;<small>v${self._i[1].join('.')}</small>`;
-  for (const i of document.querySelectorAll('.info')) i.innerHTML = `${w}&nbsp;(${fd(self._i[2])}制作)<br><br>最后更新于${fd(self._i[3])}`;
-  for (const i of document.querySelectorAll('.main')) i.style.display = 'block';
-  return undefined;
-});
+
