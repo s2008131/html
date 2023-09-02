@@ -3,5 +3,6 @@
     "jszip": "^3.10.0",
     "md5-js": "^0.0.3",
     "stackblur-canvas": "^2.5.0"
+    "proxy": "https://lchzh.net" // 这是你要访问的域
   }
 }
